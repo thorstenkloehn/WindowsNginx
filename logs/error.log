@@ -1,0 +1,12 @@
+2022/05/24 08:27:00 [emerg] 10424#6500: unknown directive "D:\ahrensburg.city" in D:\WindowsNginx\nginx-1.18.0/conf/nginx.conf:44
+2022/05/24 08:27:53 [notice] 6884#2392: signal process started
+2022/05/24 08:27:53 [error] 6884#2392: CreateFile() "D:\WindowsNginx\nginx-1.18.0/logs/nginx.pid" failed (2: Das System kann die angegebene Datei nicht finden)
+2022/05/24 08:38:28 [notice] 3652#3932: signal process started
+2022/05/24 08:39:06 [notice] 14552#9508: signal process started
+2022/05/24 08:39:06 [error] 14552#9508: CreateFile() "D:\WindowsNginx\nginx-1.18.0/logs/nginx.pid" failed (2: Das System kann die angegebene Datei nicht finden)
+2022/05/24 09:26:04 [notice] 7772#6688: signal process started
+2022/05/24 09:26:04 [error] 7772#6688: invalid PID number "" in "D:\WindowsNginx\nginx-1.18.0/logs/nginx.pid"
+2022/05/24 09:33:01 [error] 14084#14124: *2 CreateFile() "D:\ahrensburg.city/favicon.ico" failed (2: Das System kann die angegebene Datei nicht finden), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/05/24 09:33:03 [error] 14084#14124: *1 connect() failed (10061: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /geoserver/Geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Geoserver%3Aahrensburg&maxFeatures=50&outputFormat=application%2Fjson HTTP/1.1", upstream: "http://127.0.0.1:8080/geoserver/Geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Geoserver%3Aahrensburg&maxFeatures=50&outputFormat=application%2Fjson", host: "localhost", referrer: "http://localhost/"
+2022/05/24 09:33:13 [error] 14084#14124: *1 connect() failed (10061: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /geoserver HTTP/1.1", upstream: "http://127.0.0.1:8080/geoserver", host: "localhost"
+2022/05/24 09:33:34 [error] 14084#14124: *1 CreateFile() "D:\ahrensburg.city/start" failed (2: Das System kann die angegebene Datei nicht finden), client: 127.0.0.1, server: localhost, request: "GET /start HTTP/1.1", host: "localhost"
